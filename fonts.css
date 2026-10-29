@@ -1,0 +1,9 @@
+/* فونت‌های سایت: لاله‌زار برای عنوان‌ها، استعداد برای متن‌ها (فایل‌ها داخل پوشه‌ی fonts/ هستند) */
+@font-face{font-family:"Estedad";src:url("fonts/Estedad-VariableFont_wght.ttf") format("truetype");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Lalezar";src:url("fonts/Lalezar-Regular.ttf") format("truetype");font-weight:100 900;font-style:normal;font-display:swap} /* بازه‌ی وزن: تا مرورگر لاله‌زار را کلفتِ مصنوعی نکند */
+:root{--font-body:"Estedad",Tahoma,sans-serif;--font-head:"Lalezar","Estedad",Tahoma,sans-serif}
+html,body{font-family:var(--font-body)}
+button,input,select,textarea{font-family:inherit}
+h1,h2,h3,h4,.logo,.ft-logo,.sbar-logo,.mini-logo{font-family:var(--font-head);font-weight:400;letter-spacing:0}
+.fi-q,.fi-q button,.fi-q span{font-family:var(--font-body);font-weight:700} /* سؤال‌های متداول متن بلندند؛ با فونت متن */
+.logo small,.ft-logo small,.sbar-logo small{font-family:var(--font-body)}

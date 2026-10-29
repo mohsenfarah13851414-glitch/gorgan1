@@ -1,0 +1,38 @@
+راهنمای مسیر تصاویر سایت فرش علاالدین
+
+تمام تصاویر باید فایل جداگانه در پوشه images باشند؛ تصویر base64 یا عکس جاسازی‌شده در HTML اضافه نشده است.
+
+images/hero/
+  ۳ تصویر اصلی هیرو از قبل موجود است: hero-mobile.webp، hero-tablet.webp، hero-desktop.webp. هرکدام را با نسخه بهینه WebP جایگزین کنید؛ مسیرهای index.html از همین فایل‌ها استفاده می‌کنند.
+
+images/categories/
+  عکس‌های دکوراتیو بخش دسته‌بندی اصلی: rug-a.webp و rug-b.webp (از قبل موجودند). این بخش دست‌نخورده مانده است.
+
+images/category-cards/classic/
+  فایل عکس این دسته را با نام classic.webp قرار دهید و در کد به images/category-cards/classic/classic.webp ارجاع دهید.
+
+images/category-cards/modern/
+  فایل عکس این دسته را با نام modern.webp قرار دهید و در کد به images/category-cards/modern/modern.webp ارجاع دهید.
+
+images/category-cards/vintage/
+  فایل عکس این دسته را با نام vintage.webp قرار دهید و در کد به images/category-cards/vintage/vintage.webp ارجاع دهید.
+
+images/category-cards/kids/
+  فایل عکس این دسته را با نام kids.webp قرار دهید و در کد به images/category-cards/kids/kids.webp ارجاع دهید.
+
+images/category-cards/1200-shane/
+  فایل عکس این دسته را با نام 1200-shane.webp قرار دهید و در کد به images/category-cards/1200-shane/1200-shane.webp ارجاع دهید.
+
+images/category-cards/700-shane/
+  فایل عکس این دسته را با نام 700-shane.webp قرار دهید و در کد به images/category-cards/700-shane/700-shane.webp ارجاع دهید.
+
+images/guides/
+  برای راهنماها: guide-choose.webp، guide-style.webp، guide-care.webp. مسیرها در HTML از قبل تعریف شده‌اند اما خود فایل‌های عکس در ZIP اولیه وجود نداشتند؛ عکس واقعی را با همین نام‌ها در این پوشه بگذارید.
+
+images/branches/
+  برای هر شعبه یک فایل جدا قرار دهید؛ نام پیشنهادی: gorgan.webp و ... . کد فعلی از مسیر images/branches/ استفاده می‌کند؛ فایل عکس شعبه‌ها در ZIP اولیه وجود نداشت.
+
+images/products/
+  عکس محصولات بیرون از HTML و با نام‌گذاری <code>_1.webp، <code>_2.webp و ... نگهداری می‌شود. عکس‌های واقعی محصولات در ZIP اولیه موجود نبودند.
+
+نکته: در فایل ZIP اولیه، عکس‌های راهنما/شعبه/محصول واقعی موجود نبودند. برای جلوگیری از ساخت عکس جعلی، فقط مسیرها و راهنمای دقیق اضافه شده است.
